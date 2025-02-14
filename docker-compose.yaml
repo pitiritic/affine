@@ -27,8 +27,8 @@ services:
       - REDIS_SERVER_HOST=redis
       - DATABASE_URL=postgres://affine:p4ssw0rd@postgres:5432/affine
       -  NODE_ENV=production
-      - AFFINE_ADMIN_EMAIL=jm@jmmorenas.com 
-      - AFFINE_ADMIN_PASSWORD=Jm@06230
+     # - AFFINE_ADMIN_EMAIL=affine@gmail.com 
+     # - AFFINE_ADMIN_PASSWORD=P@w0rd
       - TELEMETRY_ENABLE=false
 
   redis:
